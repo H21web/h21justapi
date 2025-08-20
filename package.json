@@ -1,0 +1,19 @@
+{
+  "name": "vercel-justwatch-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev --listen 3000",
+    "build": "tsc -p tsconfig.json",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "justwatch-api-client": "1.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "@types/node": "^20.12.12",
+    "vercel": "^39.1.0"
+  }
+}
